@@ -1,0 +1,28 @@
+.seat-item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.seat-button {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 1pt solid #26af82;
+  color: #23a57a;
+  border-radius: 4px;
+}
+.seat-button:hover {
+  background-color: #23a57a;
+  color: #fff;
+}
+.unavailable {
+  background-color: rgb(209, 209, 209);
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+.selected {
+  background-color: #23a57a;
+  color: #fff;
+}

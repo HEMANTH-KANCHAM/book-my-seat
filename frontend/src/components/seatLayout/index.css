@@ -1,0 +1,57 @@
+.seat-layout-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seat-layout-timings-container {
+  align-self: flex-start;
+  display: flex;
+  margin-bottom: 40px;
+}
+.seat-layout-time-theater {
+  padding: 6px 24px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: 1px solid #8adec2;
+  color: #57c8ad;
+}
+.selected {
+  background-color: #2dc492;
+  color: #fff;
+}
+.seat-layout-time {
+  text-align: center;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0;
+}
+.seat-layout-content-container {
+  width: 90%;
+  max-width: 1110px;
+}
+.seat-layout-class-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.seat-layout-class-cost {
+  color: rgb(146, 146, 146);
+  font-weight: 500;
+}
+.seat-layout-hr-line {
+  width: 100%;
+}
+.seat-layout-seats-list {
+  width: 100%;
+  max-width: 550px;
+  align-self: center;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
